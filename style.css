@@ -1,0 +1,125 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f8f8f8;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* HERO */
+
+header{
+    background:#2e7d32;
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:22px;
+    max-width:700px;
+    margin:0 auto 35px;
+}
+
+.boton{
+    display:inline-block;
+    background:#ff9800;
+    color:#fff;
+    text-decoration:none;
+    padding:18px 40px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.boton:hover{
+    background:#f57c00;
+}
+
+/* BENEFÍCIOS */
+
+.beneficios{
+    background:#fff;
+    padding:70px 20px;
+}
+
+.beneficios h2{
+    text-align:center;
+    margin-bottom:35px;
+    font-size:34px;
+    color:#2e7d32;
+}
+
+.beneficios ul{
+    max-width:700px;
+    margin:auto;
+}
+
+.beneficios li{
+    margin-bottom:18px;
+    font-size:20px;
+}
+
+/* RODAPÉ */
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer a{
+    color:#fff;
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.boton{
+    font-size:18px;
+    padding:15px 30px;
+}
+
+.beneficios h2{
+    font-size:28px;
+}
+
+.beneficios li{
+    font-size:18px;
+}
+
+}
