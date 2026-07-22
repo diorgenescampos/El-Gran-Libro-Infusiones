@@ -123,3 +123,13 @@ header p{
 }
 
 }
+/* CAPA DO EBOOK */
+.ebook-cover{
+    max-width:350px;
+    width:100%;
+    display:block;
+    margin:40px auto;
+    border-radius:14px;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+    transition:transform .3s ease;
+}
